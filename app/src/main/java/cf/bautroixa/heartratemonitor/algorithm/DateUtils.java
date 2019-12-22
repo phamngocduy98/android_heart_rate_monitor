@@ -8,6 +8,9 @@ import java.time.ZonedDateTime;
 import java.util.Calendar;
 
 public class DateUtils {
+    public static long DAY_MILIS = 24 * 60 * 60 * 1000;
+    public static long WEEK_MILIS = 7 * DAY_MILIS;
+
     public static long getDayStartTimestamp(int minusDay) {
         long minusSec= minusDay * 24 * 60 * 60;
         ZoneId zone = null;

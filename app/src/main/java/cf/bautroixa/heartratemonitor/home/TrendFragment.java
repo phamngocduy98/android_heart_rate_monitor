@@ -165,8 +165,8 @@ public class TrendFragment extends Fragment implements OnChartValueSelectedListe
 
         btnDateBack.setOnClickListener(v -> {
             weekOffset += 1;
-            String startWeekDay = DateUtils.getDateFromTimestamp(System.currentTimeMillis() - weekOffset * 7 * 24 * 60 * 60 * 1000);
-            String endWeekDay = DateUtils.getDateFromTimestamp(System.currentTimeMillis() - (weekOffset - 1) * 7 * 24 * 60 * 60 * 1000);
+            String startWeekDay = DateUtils.getDateFromTimestamp(System.currentTimeMillis() - (weekOffset + 1) * DateUtils.WEEK_MILIS + DateUtils.DAY_MILIS);
+            String endWeekDay = DateUtils.getDateFromTimestamp(System.currentTimeMillis() - weekOffset * DateUtils.WEEK_MILIS);
             String weekAgoString = getString(R.string.hr_n_week_ago);
             txtChartTopTitle.setText(String.format(getString(R.string.hr_week_from_date_to_date), String.format(weekAgoString, weekOffset), startWeekDay, endWeekDay));
             setData();
@@ -174,12 +174,12 @@ public class TrendFragment extends Fragment implements OnChartValueSelectedListe
         btnDateNext.setOnClickListener(v -> {
             weekOffset -= 1;
             String weekAgoString = getString(R.string.hr_n_week_ago);
-            if (weekOffset <= 0){
+            if (weekOffset <= 0) {
                 weekOffset = 0;
                 weekAgoString = getString(R.string.hr_this_week);
             }
-            String startWeekDay = DateUtils.getDateFromTimestamp(System.currentTimeMillis() - weekOffset * 7 * 24 * 60 * 60 * 1000);
-            String endWeekDay = DateUtils.getDateFromTimestamp(System.currentTimeMillis() - (weekOffset - 1) * 7 * 24 * 60 * 60 * 1000);
+            String startWeekDay = DateUtils.getDateFromTimestamp(System.currentTimeMillis() - (weekOffset + 1) * DateUtils.WEEK_MILIS + DateUtils.DAY_MILIS);
+            String endWeekDay = DateUtils.getDateFromTimestamp(System.currentTimeMillis() - weekOffset * DateUtils.WEEK_MILIS);
 
             txtChartTopTitle.setText(String.format(getString(R.string.hr_week_from_date_to_date), String.format(weekAgoString, weekOffset), startWeekDay, endWeekDay));
             setData();
