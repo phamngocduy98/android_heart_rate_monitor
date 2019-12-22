@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Đo nhịp tim</string>
+    <string name="trending">Xu hướng</string>
+    <string name="btn_cancel">Huỷ</string>
+    <string name="heart_rate_description">Chạm vào nút bên dưới để bắt đầu đo nhịp tim</string>
+    <string name="btn_start">Bắt đầu</string>
+    <string name="heart_rate_monitor">Đo nhịp tim</string>
+    <string name="heart_rate_measuring">Đang đo nhịp tim</string>
+    <string name="btn_stop">Dừng</string>
+    <string name="btn_pause">Tạm dừng</string>
+    <string name="heart_rate_monitor_guide">Đặt ngón tay che kín camera chính phía sau và đèn flash</string>
+    <string name="btn_save">Lưu lại</string>
+    <string name="btn_measure_hr">Đo nhịp tim</string>
+    <string name="hr_notes">Ghi chú</string>
+    <string name="hr_type_some_notes">Nhập vài ghi chú vào đây...</string>
+    <string name="hr_choose_status">Chọn trạng thái của bạn</string>
+    <string name="hr_avg_range">Vùng %s trung bình</string>
+    <string name="hr_after_exercise">sau tập luyện</string>
+    <string name="hr_resting">nghỉ ngơi</string>
+    <string name="hr_tired">mệt mỏi</string>
+    <string name="hr_excited">phấn khích</string>
+    <string name="hr_measure_history">Lịch sử đo</string>
+    <string name="hr_select_a_day">Chọn một ngày để xem kết quả</string>
+    <string name="hr_average">TRUNG BÌNH</string>
+    <string name="hr_max">TỐI ĐA</string>
+    <string name="hr_min">TỐI THIỂU</string>
+    <string name="hr_alter_measure_btn_tutorial">Bạn cũng có thể chạm vào nút này để đo nhịp tim</string>
+    <string name="hr_chart_tutorial">Chạm vào cột bất kì để xem thống kê và lịch sử kết quả đo nhịp tim của ngày hôm đó</string>
+    <string name="btn_got_it">Đã hiểu</string>
+    <string name="hr_notes_tutorial">Nhớ rằng bạn có thể viết thêm ghi chú chi tiết về trạng thái hiện tại của mình</string>
+    <string name="hr_status_tutorial">Chạm để chọn trạng thái sức khỏe của bạn</string>
+    <string name="hr_measure_save_tutorial">Bấm nút Lưu lại để hoàn thành</string>
+    <string name="hr_measure_btn_tutorial">Bạn có thể chạm vào nút này để đo nhịp tim</string>
+    <string name="hr_status_range_tutorial">Với mỗi trạng thái sẽ có khoảng nhịp tim chung bình của người bình thường tương ứng</string>
+    <string name="hr_cam_diag_title">Y.cầu quyền máy ảnh</string>
+    <string name="hr_cam_diag_desc">Ứng dụng cần quyền sử dụng máy ảnh để thực hiện việc đo nhịp tim</string>
+    <string name="hr_cam_not_grant">Chưa được cấp quyền! Ứng dụng cần quyền truy cập máy ảnh để thực hiện đo nhịp tim</string>
+    <string name="hr_cam_granted">Đã được cấp quyền! Làm theo hướng dẫn để thực hiện đo nhịp tim</string>
+    <string name="result">Kết quả</string>
+    <string name="hr_week_from_date_to_date">%s (%s-%s)</string>
+    <string name="hr_this_week">Tuần này</string>
+    <string name="hr_n_week_ago">%d tuần trước</string>
+    <string name="about">Giới thiệu</string>
+    <string name="about_desc">Ứng dụng đo nhịp tim được thiết kế bởi Phạm Ngọc Duy (phamngocduy98.github.io/HeartRateMonitor)</string>
+</resources>
